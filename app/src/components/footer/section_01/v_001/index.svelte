@@ -38,7 +38,7 @@
             </a>
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
-            <p class="text-center text-base text-gray-400">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+            <p class="text-center text-base text-gray-400">&copy; 2022 Сервис предоставлен компанией <a href="https://orbita-stroy.com/" class="text-indigo-700 font-bold">"Орбита-строй"</a>.</p>
         </div>
     </div>
 </footer>
