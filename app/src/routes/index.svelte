@@ -233,7 +233,7 @@
 				</h2>
 				<div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
 					<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-900 bg-slate-200 hover:bg-slate-200"> Условия размещения</a>
-					<a href="#" class="px-8 flex items-center justify-center bg-gradient-to-br from-indigo-900 to-indigo-900 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
+					<a href="#" class="px-8 flex items-center justify-center bg-gradient-to-br from-cyan-900 to-indigo-900 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
 				</div>
 			</div>
 		</div>

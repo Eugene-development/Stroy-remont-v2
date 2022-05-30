@@ -56,7 +56,7 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-3">
                     <!-- Contact information -->
-                    <div class="relative overflow-hidden py-10 px-6 bg-indigo-900 sm:px-10 xl:p-12">
+                    <div class="relative overflow-hidden py-10 px-6 bg-cyan-900 sm:px-10 xl:p-12">
                         <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
                             <svg class="absolute inset-0 w-full h-full" width="343" height="388" viewBox="0 0 343 388" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z" fill="url(#linear1)" fill-opacity=".1" />
@@ -195,11 +195,11 @@
 
                             <div class="sm:col-span-2 sm:flex sm:justify-end">
                                 {#if visibleButtonSendOffer }
-                                    <button on:click={ sendOffer } type="button" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto">
+                                    <button on:click={ sendOffer } type="button" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-800 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 sm:w-auto">
                                         Отправить
                                     </button>
                                 {:else }
-                                    <p class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-800 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:w-auto">
+                                    <p class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-800 sm:w-auto">
                                         Отправлено
                                     </p>
                                 {/if}
