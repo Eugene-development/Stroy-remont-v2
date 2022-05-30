@@ -144,7 +144,7 @@
 
                 <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Размещение </a>
                 <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Новости </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Контакты </a>
+                <a href="/contacts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Контакты </a>
 
                 {#if false}
                     <div class="relative">

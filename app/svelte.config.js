@@ -21,6 +21,7 @@ const config = {
 			$components: 'src/components',
 			$utils: 'src/utils',
 			$layout: 'src/layout',
+			$stores: 'src/stores'
 		}
 	},
 };
