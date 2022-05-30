@@ -60,18 +60,6 @@
                             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
 
-                                    <a href="/category/stroitelstvodomov" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                        <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12">
-                                            <!-- Heroicon name: outline/cursor-click -->
-                                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                                            </svg>
-                                        </div>
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">Строительство домов</p>
-                                            <p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.</p>
-                                        </div>
-                                    </a>
                                     <a href="/category/remontpomeshenii" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12">
                                             <!-- Heroicon name: outline/cursor-click -->
@@ -81,6 +69,18 @@
                                         </div>
                                         <div class="ml-4">
                                             <p class="text-base font-medium text-gray-900">Ремонт помещений</p>
+                                            <p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.</p>
+                                        </div>
+                                    </a>
+                                    <a href="/category/stroitelstvodomov" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                        <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12">
+                                            <!-- Heroicon name: outline/cursor-click -->
+                                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                            </svg>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p class="text-base font-medium text-gray-900">Строительство домов</p>
                                             <p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.</p>
                                         </div>
                                     </a>
@@ -116,7 +116,7 @@
                                             <div class="text-base font-medium text-gray-900">Консультации</div>
                                             <span class="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-cyan-100 text-cyan-800"> New </span>
                                         </div>
-                                        <p class="mt-1 text-sm text-gray-500">Empower your entire team with even more advanced tools.</p>
+                                        <p class="mt-1 text-sm text-gray-500">Свяжитесь с нашим менеджером и получите консультацию по лучшим вариантам.</p>
                                     </a>
                                 </div>
                             </div>
