@@ -1,3 +1,3 @@
 import { writable } from 'svelte/store';
 
-export const buttonSendOffer = writable(true)
+export const categoryMenu = writable(false);

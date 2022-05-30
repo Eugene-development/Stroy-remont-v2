@@ -1,4 +1,17 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
+<script>
+    import {categoryMenu} from "../../../../stores/boolean/index.js";
+    let visibleCategoryMenu;
+    categoryMenu.subscribe(value => visibleCategoryMenu = value);
+
+    import {useVisible} from "$lib/functions/visible";
+    const {invert, invertToFalse, invertToTrue} = useVisible;
+
+    const changeVisibleCategoryMenu = () => {
+        categoryMenu.update(invert);
+    };
+</script>
+
+
 <div class="relative bg-white max-w-7xl mx-auto">
     <div class="flex justify-between items-center px-4 py-2 sm:px-6  md:space-x-10">
         <div>
@@ -22,7 +35,7 @@
 
                 <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                    <button type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+                    <button on:click={changeVisibleCategoryMenu} type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
                         <span>Каталог</span>
                         <!--
                           Heroicon name: solid/chevron-down
@@ -44,7 +57,7 @@
                         From: "opacity-100 translate-y-0"
                         To: "opacity-0 translate-y-1"
                     -->
-                    {#if false}
+                    {#if visibleCategoryMenu}
 
                         <div class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-3xl">
                             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
