@@ -18,7 +18,7 @@
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
             <nav class=" flex space-x-10">
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Главная </a>
+                <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Главная </a>
 
                 <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->

@@ -12,7 +12,7 @@
 		<!-- Hero section -->
 		<div class="relative">
 			<div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-			<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+			<div class=" sm:px-6 lg:px-8">
 				<div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
 					<div class="absolute inset-0">
 						<img class="h-full w-full object-cover" src="https://умс24.рф/wp-content/uploads/2020/01/1-9.jpg" alt="People working on laptops">
