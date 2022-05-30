@@ -226,13 +226,13 @@
 		<!-- CTA Section -->
 		<div class="bg-white">
 			<div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
-				<h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-					<span class="block text-slate-800">Готовы присоединиться?</span>
-					<span class="-mb-1 pb-1 block text-red-900">Отправьте форму на рассмотрение.</span>
+				<h2 class="text-4xl font-extrabold tracking-tight sm:text-4xl text-indigo-800">
+					<span class="block">Готовы присоединиться?</span>
+					<span class="-mb-1 pb-1 block">Отправьте форму на рассмотрение.</span>
 <!--					<span class="-mb-1 pb-1 block bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">Отправьте форму на рассмотрение.</span>-->
 				</h2>
 				<div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-					<a href="#" class="flex items-center justify-center bg-gradient-to-br from-red-900 to-indigo-900 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
+					<a href="#" class="flex items-center justify-center bg-gradient-to-br from-indigo-600 to-indigo-800 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
 					<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-800 bg-slate-100 hover:bg-slate-200"> Условия размещения</a>
 				</div>
 			</div>
