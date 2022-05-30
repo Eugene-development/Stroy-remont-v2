@@ -38,23 +38,23 @@
 
 		<!-- Logo Cloud -->
 		<div class="bg-gray-100">
-			<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-				<p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">Нам доверяют</p>
-				<div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+				<p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">Нам доверяют производители</p>
+				<div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5 grayscale opacity-70">
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-						<img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+						<img class="h-12" src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/brands/1.png" alt="Tuple">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-						<img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+						<img class="h-12" src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/brands/2.png" alt="Mirage">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-						<img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+						<img class="h-12" src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/brands/3.png" alt="StaticKit">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-						<img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
+						<img class="h-12" src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/brands/4.png" alt="Transistor">
 					</div>
 					<div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-						<img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
+						<img class="h-12" src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/brands/5.png" alt="Workcation">
 					</div>
 				</div>
 			</div>

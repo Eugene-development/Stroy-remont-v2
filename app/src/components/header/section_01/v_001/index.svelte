@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white">
-    <div class="flex justify-between items-center px-4 py-2 sm:px-6 md:justify-start md:space-x-10">
+<div class="relative bg-white max-w-7xl mx-auto">
+    <div class="flex justify-between items-center px-4 py-2 sm:px-6  md:space-x-10">
         <div>
             <a href="/" class="flex">
                 <span class="sr-only">Логотип</span>
@@ -17,7 +17,7 @@
             </button>
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
-            <nav class="flex space-x-10">
+            <nav class=" flex space-x-10">
                 <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Главная </a>
 
                 <div class="relative">
@@ -199,10 +199,16 @@
                     </div>
                 {/if}
             </nav>
-<!--            <div class="flex items-center md:ml-12">-->
-<!--                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Вход </a>-->
-<!--                <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Регистрация </a>-->
-<!--            </div>-->
+            <div class="flex items-center md:ml-12">
+                <svg class="mr-4 h-7 w-7 text-slate-500" fill="none" stroke="currentColor"
+                     stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+
+                <a href="#" class="text-2xl font-medium text-slate-500 hover:text-slate-900"> 8 (930) 688-88-62 </a>
+            </div>
         </div>
     </div>
 
