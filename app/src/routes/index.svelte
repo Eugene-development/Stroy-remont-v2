@@ -24,7 +24,7 @@
 							<span class="block text-white">Все ремонтно-строительные</span>
 							<span class="block text-indigo-200">компании вашего региона</span>
 						</h1>
-						<p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-4xl">В нашем каталоге представлены проверенные компании с хорошей репутацией, которые ведут деятельность по ремонту помещений, строительству зданий и сооружений, а также осуществляют продажу строительных и отделочных материалов и их перевозку.</p>
+						<p class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-4xl">В нашем каталоге представлены проверенные компании с хорошей репутацией, которые ведут деятельность по ремонту помещений, строительству зданий и сооружений, а также осуществляют продажу строительных и отделочных материалов и их перевозку.</p>
 						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
 							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
 								<!--								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог компаний </a>-->
@@ -232,8 +232,8 @@
 <!--					<span class="-mb-1 pb-1 block bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">Отправьте форму на рассмотрение.</span>-->
 				</h2>
 				<div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-					<a href="#" class="flex items-center justify-center bg-gradient-to-br from-indigo-600 to-indigo-800 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
-					<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-800 bg-slate-100 hover:bg-slate-200"> Условия размещения</a>
+					<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-900 bg-slate-200 hover:bg-slate-200"> Условия размещения</a>
+					<a href="#" class="px-8 flex items-center justify-center bg-gradient-to-br from-indigo-900 to-indigo-900 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "> Форма заявки </a>
 				</div>
 			</div>
 		</div>
