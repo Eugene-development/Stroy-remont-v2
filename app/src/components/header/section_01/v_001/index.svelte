@@ -1,10 +1,7 @@
 <script>
     import {categoryMenu} from "../../../../stores/boolean/index.js";
-    let visibleCategoryMenu;
-    categoryMenu.subscribe(value => visibleCategoryMenu = value);
-
     import {useVisible} from "$lib/functions/visible";
-    const {invert, invertToFalse, invertToTrue} = useVisible;
+    const {invert} = useVisible;
 
     const changeVisibleCategoryMenu = () => {
         categoryMenu.update(invert);
@@ -57,7 +54,7 @@
                         From: "opacity-100 translate-y-0"
                         To: "opacity-0 translate-y-1"
                     -->
-                    {#if visibleCategoryMenu}
+                    {#if $categoryMenu}
 
                         <div class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-3xl">
                             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
