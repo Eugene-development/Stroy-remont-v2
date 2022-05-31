@@ -265,7 +265,7 @@
 			>
 				<h2 class="text-4xl font-extrabold tracking-tight text-slate-700 sm:text-4xl">
 					<span class="block">Готовы присоединиться?</span>
-					<span class="-mb-1 block pb-1">Отправьте форму на рассмотрение.</span>
+					<span class="-mb-1 block pb-1">Отправьте форму на рассмотрение заявки.</span>
 					<!--					<span class="-mb-1 pb-1 block bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">Отправьте форму на рассмотрение.</span>-->
 				</h2>
 				<div class="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
