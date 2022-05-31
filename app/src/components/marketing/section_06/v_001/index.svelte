@@ -29,7 +29,7 @@
 				>
 					{#each company as { city, name, address, phone1, phone2, email, products, site }}
 						<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-							<div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+							<div class="px-6 py-10 bg-white sm:p-10 sm:pb-6">
 								<div>
 									<span
 										class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-cyan-50 text-cyan-600"
@@ -38,7 +38,7 @@
 								</div>
 								<div class="my-4 flex items-baseline text-3xl font-extrabold">{name}</div>
 
-								<div class="my-2 flex text-base text-gray-500">
+								<div class="my-3 flex text-base text-gray-500">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										class="flex-shrink-0 w-6 h-6"
@@ -55,7 +55,7 @@
 									</svg>
 									<span class="ml-3">{address}</span>
 								</div>
-								<div class="my-2 flex text-base text-gray-500">
+								<div class="my-3 flex text-base text-gray-500">
 									<svg
 										class="flex-shrink-0 w-6 h-6"
 										fill="none"
@@ -73,7 +73,7 @@
 									<span class="ml-3">{phone1}</span>
 								</div>
 								{#if phone2}
-									<div class="my-2 flex text-base text-gray-500">
+									<div class="my-3 flex text-base text-gray-500">
 										<svg
 												class="flex-shrink-0 w-6 h-6"
 												fill="none"
@@ -91,7 +91,7 @@
 										<span class="ml-3">{phone2}</span>
 									</div>
 								{/if}
-								<div class="my-2 flex text-base text-gray-500">
+								<div class="my-3 flex text-base text-gray-500">
 									<svg
 										class="flex-shrink-0 w-6 h-6"
 										xmlns="http://www.w3.org/2000/svg"
@@ -111,9 +111,10 @@
 								</div>
 							</div>
 							<div
-								class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6"
+								class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-100 space-y-6 sm:p-10 sm:pt-6"
 							>
 								<ul role="list" class="space-y-4">
+									{#each products as {name}}
 									<li class="flex items-start">
 										<div class="flex-shrink-0">
 											<!-- Heroicon name: outline/check -->
@@ -129,8 +130,10 @@
 												<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
 											</svg>
 										</div>
-										<p class="ml-3 text-base text-gray-700">Itaque cupiditate adipisci quibusdam</p>
+										<p class="ml-3 text-base text-gray-800">{name}</p>
 									</li>
+									{/each}
+
 								</ul>
 								<div class="rounded-md shadow">
 									<a

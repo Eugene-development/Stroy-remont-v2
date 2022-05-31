@@ -18,7 +18,25 @@ const company = [
         email: 'info@orbita-stroy.com',
         products: [
             {
-                name: ''
+                name: 'Стройматериалы'
+            },
+            {
+                name: 'Изоляция'
+            },
+            {
+                name: 'Отделка'
+            },
+            {
+                name: 'Инструмент'
+            },
+            {
+                name: 'Сантехника'
+            },
+            {
+                name: 'Электротовары'
+            },
+            {
+                name: 'Окна'
             },
         ],
         site: 'https://orbita-stroy.com'
