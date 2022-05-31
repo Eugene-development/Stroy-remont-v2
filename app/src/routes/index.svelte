@@ -1,4 +1,13 @@
 <script>
+	import {categoryMenu} from '$stores/boolean';
+	import {useVisible} from '$lib/functions/visible';
+
+	const {invert} = useVisible;
+
+	const changeVisibleCategoryMenu = () => {
+		categoryMenu.update(invert);
+	};
+
 </script>
 
 <svelte:head>
@@ -34,8 +43,7 @@
 						</p>
 						<div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
 							<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5 sm:space-y-0">
-								<!--								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог компаний </a>-->
-								<!--								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-900 bg-slate-50 hover:bg-opacity-70 sm:px-8 transition ease-in-out delay-100 hover:scale-110 duration-500"> Каталог компаний </a>-->
+								<button on:click={changeVisibleCategoryMenu} type="button" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-cyan-700 bg-white hover:bg-cyan-50 sm:px-8"> Каталог компаний </button>
 							</div>
 						</div>
 					</div>
@@ -262,17 +270,17 @@
 				</h2>
 				<div class="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
 					<a
-						href="#"
+						href="/"
 						class="flex items-center justify-center rounded-md border border-transparent bg-slate-200 px-4 py-3 text-base font-medium text-slate-900 shadow-sm hover:bg-slate-200"
 					>
 						Условия размещения</a
 					>
-					<a
-						href="#"
+					<button
+						type="button"
 						class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-br from-cyan-900 to-cyan-900 bg-origin-border px-8 px-4 py-3 text-base font-medium text-white shadow-sm hover:from-gray-700 hover:to-slate-900 "
 					>
 						Форма заявки
-					</a>
+					</button>
 				</div>
 			</div>
 		</div>
