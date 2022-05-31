@@ -27,7 +27,7 @@
 				<div
 					class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0"
 				>
-					{#each company as { city, name, address, phone, email, products, site }}
+					{#each company as { city, name, address, phone1, phone2, email, products, site }}
 						<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 							<div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
 								<div>
@@ -36,7 +36,7 @@
 										>{city}</span
 									>
 								</div>
-								<div class="my-4 flex items-baseline text-3xl font-extrabold">Орбита-Строй</div>
+								<div class="my-4 flex items-baseline text-3xl font-extrabold">{name}</div>
 
 								<div class="my-2 flex text-base text-gray-500">
 									<svg
@@ -53,7 +53,7 @@
 											d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
 										/>
 									</svg>
-									<span class="ml-3">п-т Ленина 121-в</span>
+									<span class="ml-3">{address}</span>
 								</div>
 								<div class="my-2 flex text-base text-gray-500">
 									<svg
@@ -70,8 +70,27 @@
 											stroke-linejoin="round"
 										/>
 									</svg>
-									<span class="ml-3">8 (902) 303-36-54</span>
+									<span class="ml-3">{phone1}</span>
 								</div>
+								{#if phone2}
+									<div class="my-2 flex text-base text-gray-500">
+										<svg
+												class="flex-shrink-0 w-6 h-6"
+												fill="none"
+												stroke="currentColor"
+												stroke-width="2"
+												viewBox="0 0 24 24"
+												xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+													d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+											/>
+										</svg>
+										<span class="ml-3">{phone2}</span>
+									</div>
+								{/if}
 								<div class="my-2 flex text-base text-gray-500">
 									<svg
 										class="flex-shrink-0 w-6 h-6"
@@ -88,7 +107,7 @@
 											d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 										/>
 									</svg>
-									<span class="ml-3">info@orbita-stroy.com</span>
+									<span class="ml-3">{email}</span>
 								</div>
 							</div>
 							<div

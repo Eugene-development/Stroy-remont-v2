@@ -11,16 +11,17 @@ const mainText = {
 const company = [
 	{
 		city: 'Дзержинск',
-		name: '',
-        address: '',
-        phone: '',
-        email: '',
+		name: 'Орбита-Строй',
+        address: 'п-т Ленина 121-в',
+        phone1: '8 (902) 303-36-54',
+        phone2: '8 (930) 688-88-62',
+        email: 'info@orbita-stroy.com',
         products: [
             {
                 name: ''
             },
         ],
-        site: ''
+        site: 'https://orbita-stroy.com'
 	},
 ];
 
