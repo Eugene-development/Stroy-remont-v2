@@ -1,12 +1,17 @@
 <script>
     import MobileMenu from '../../mobile/v_001/index.svelte'
     import {categoryMenu} from '$stores/boolean';
+    import {clickOutside} from "$lib/functions/click_outside";
+
     import {useVisible} from '$lib/functions/visible';
 
-    const {invert} = useVisible;
+    const {invert, invertToFalse} = useVisible;
 
     const changeVisibleCategoryMenu = () => {
         categoryMenu.update(invert);
+    };
+    const closeVisibleCategoryMenu = () => {
+        categoryMenu.update(invertToFalse);
     };
 </script>
 
@@ -50,9 +55,10 @@
                 <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                     <button
+                            on:outclick={closeVisibleCategoryMenu} use:clickOutside
+                            on:click={changeVisibleCategoryMenu}
                             aria-expanded="false"
                             class="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900"
-                            on:click={changeVisibleCategoryMenu}
                             type="button"
                     >
                         <span>Каталог</span>
