@@ -43,7 +43,7 @@
 						</p>
 						<div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
 							<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5 sm:space-y-0">
-								<button on:click={changeVisibleCategoryMenu} type="button" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-cyan-700 bg-white hover:bg-cyan-50 sm:px-8"> Каталог компаний </button>
+								<button on:click={changeVisibleCategoryMenu} type="button" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-cyan-700 bg-white hover:bg-cyan-50 hover:bg-opacity-70 sm:px-8 transition ease-in-out delay-100 hover:scale-110 duration-500"> Каталог компаний </button>
 							</div>
 						</div>
 					</div>
