@@ -320,7 +320,7 @@
                     </div>
                 {/if}
             </nav>
-            <div class="flex items-center md:ml-12">
+            <div class="flex items-center md:ml-12 hidden lg:flex">
                 <svg
                         class="mr-4 h-7 w-7 text-slate-500 "
                         fill="none"
@@ -337,7 +337,7 @@
                 </svg>
 
                 <a
-                        class="text-2xl font-medium font-semibold text-slate-500 hover:text-slate-600"
+                        class="text-2xl font-medium font-semibold text-slate-500 hover:text-slate-600 "
                         href="tel:+74951475550"
                 >
                     8 (495) 147-55-50
