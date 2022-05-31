@@ -10,9 +10,9 @@
 		scroll-behavior: smooth;
 	}
 	ul {
-		@apply list-disc list-outside ml-8;
+		@apply ml-8 list-outside list-disc;
 	}
 	ol {
-		@apply list-decimal list-outside ml-8;
+		@apply ml-8 list-outside list-decimal;
 	}
 }

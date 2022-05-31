@@ -12,7 +12,7 @@
 		<div class="relative">
 			<div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
 			<div class=" sm:px-6 lg:px-8">
-				<div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+				<div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
 					<div class="absolute inset-0">
 						<img
 							class="h-full w-full object-cover"
@@ -27,13 +27,13 @@
 							<span class="block text-white">Все ремонтно-строительные</span>
 							<span class="block text-cyan-100">компании вашего региона</span>
 						</h1>
-						<p class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-4xl">
+						<p class="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-4xl">
 							В нашем каталоге представлены проверенные компании с хорошей репутацией, которые ведут
 							деятельность по ремонту помещений, строительству зданий и сооружений, а также
 							осуществляют продажу строительных и отделочных материалов и их перевозку.
 						</p>
-						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
+						<div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+							<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5 sm:space-y-0">
 								<!--								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог компаний </a>-->
 								<!--								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-900 bg-slate-50 hover:bg-opacity-70 sm:px-8 transition ease-in-out delay-100 hover:scale-110 duration-500"> Каталог компаний </a>-->
 							</div>
@@ -45,11 +45,13 @@
 
 		<!-- Logo Cloud -->
 		<div class="bg-gray-100">
-			<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-				<p class="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+			<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
+				<p class="text-center text-sm font-semibold uppercase tracking-wide text-gray-500">
 					Нам доверяют производители
 				</p>
-				<div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5 grayscale opacity-70">
+				<div
+					class="mt-8 grid grid-cols-2 gap-8 opacity-70 grayscale md:grid-cols-6 lg:grid-cols-5 "
+				>
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
 						<img
 							class="h-12"
@@ -253,23 +255,23 @@
 		<!-- CTA Section -->
 		<div class="bg-white">
 			<div
-				class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between"
+				class="mx-auto max-w-4xl py-16 px-4 sm:px-6 sm:py-24 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-8"
 			>
-				<h2 class="text-4xl font-extrabold tracking-tight sm:text-4xl text-slate-700">
+				<h2 class="text-4xl font-extrabold tracking-tight text-slate-700 sm:text-4xl">
 					<span class="block">Готовы присоединиться?</span>
-					<span class="-mb-1 pb-1 block">Отправьте форму на рассмотрение.</span>
+					<span class="-mb-1 block pb-1">Отправьте форму на рассмотрение.</span>
 					<!--					<span class="-mb-1 pb-1 block bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">Отправьте форму на рассмотрение.</span>-->
 				</h2>
-				<div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
+				<div class="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
 					<a
 						href="#"
-						class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-slate-900 bg-slate-200 hover:bg-slate-200"
+						class="flex items-center justify-center rounded-md border border-transparent bg-slate-200 px-4 py-3 text-base font-medium text-slate-900 shadow-sm hover:bg-slate-200"
 					>
 						Условия размещения</a
 					>
 					<a
 						href="#"
-						class="px-8 flex items-center justify-center bg-gradient-to-br from-cyan-900 to-cyan-900 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-gray-700 hover:to-slate-900 "
+						class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-br from-cyan-900 to-cyan-900 bg-origin-border px-8 px-4 py-3 text-base font-medium text-white shadow-sm hover:from-gray-700 hover:to-slate-900 "
 					>
 						Форма заявки
 					</a>

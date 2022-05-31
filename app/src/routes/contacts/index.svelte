@@ -47,16 +47,16 @@
 </svelte:head>
 
 <div class="bg-slate-100">
-	<div class="w-full mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+	<div class="mx-auto w-full py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 		<div class="relative bg-white shadow-xl">
 			<h2 class="sr-only">Контакты</h2>
 
 			<div class="grid grid-cols-1 lg:grid-cols-3">
 				<!-- Contact information -->
-				<div class="relative overflow-hidden py-10 px-6 bg-cyan-900 sm:px-10 xl:p-12">
-					<div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
+				<div class="relative overflow-hidden bg-cyan-900 py-10 px-6 sm:px-10 xl:p-12">
+					<div class="pointer-events-none absolute inset-0 sm:hidden" aria-hidden="true">
 						<svg
-							class="absolute inset-0 w-full h-full"
+							class="absolute inset-0 h-full w-full"
 							width="343"
 							height="388"
 							viewBox="0 0 343 388"
@@ -85,11 +85,11 @@
 						</svg>
 					</div>
 					<div
-						class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none sm:block lg:hidden"
+						class="pointer-events-none absolute top-0 right-0 bottom-0 hidden w-1/2 sm:block lg:hidden"
 						aria-hidden="true"
 					>
 						<svg
-							class="absolute inset-0 w-full h-full"
+							class="absolute inset-0 h-full w-full"
 							width="359"
 							height="339"
 							viewBox="0 0 359 339"
@@ -118,11 +118,11 @@
 						</svg>
 					</div>
 					<div
-						class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none lg:block"
+						class="pointer-events-none absolute top-0 right-0 bottom-0 hidden w-1/2 lg:block"
 						aria-hidden="true"
 					>
 						<svg
-							class="absolute inset-0 w-full h-full"
+							class="absolute inset-0 h-full w-full"
 							width="160"
 							height="678"
 							viewBox="0 0 160 678"
@@ -151,10 +151,10 @@
 						</svg>
 					</div>
 					<h3 class="text-xl font-medium text-white">Контактная информация:</h3>
-					<p class="mt-6 text-base text-indigo-50 max-w-3xl">
+					<p class="mt-6 max-w-3xl text-base text-indigo-50">
 						Нижний Новгород, Автозаводский район, <br /> ул. Зеленхозовская 4-а (пластиковые окна)
 					</p>
-					<p class="mt-6 text-base text-indigo-50 max-w-3xl">
+					<p class="mt-6 max-w-3xl text-base text-indigo-50">
 						Дзержинск, Зарёвская объездная, <br /> пр. Ленина, 121-В (строительные материалы)
 					</p>
 					<dl class="mt-8 space-y-6">
@@ -167,7 +167,7 @@
 						<!--                            </dd>-->
 						<dd class="flex text-base text-indigo-50">
 							<svg
-								class="flex-shrink-0 w-6 h-6 text-indigo-200"
+								class="h-6 w-6 flex-shrink-0 text-indigo-200"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
 								viewBox="0 0 24 24"
@@ -186,7 +186,7 @@
 						<dt><span class="sr-only">Почта</span></dt>
 						<dd class="flex text-base text-indigo-50">
 							<svg
-								class="flex-shrink-0 w-6 h-6 text-indigo-200"
+								class="h-6 w-6 flex-shrink-0 text-indigo-200"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
 								viewBox="0 0 24 24"
@@ -205,12 +205,12 @@
 						<dt><span class="sr-only">Почта</span></dt>
 						<dd class="flex text-base text-indigo-50">
 							<a
-								class="text-base text-indigo-50 flex"
+								class="flex text-base text-indigo-50"
 								href="https://vk.com/orbita_stroy"
 								target="_blank"
 							>
 								<svg
-									class="mr-3 lex-shrink-0 w-6 h-6 text-indigo-200"
+									class="lex-shrink-0 mr-3 h-6 w-6 text-indigo-200"
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
 									viewBox="0 0 24 24"
@@ -231,7 +231,7 @@
 
 				<!-- Contact form -->
 				<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-					<h3 class="text-lg font-medium text-gray-900 border-b pb-2">
+					<h3 class="border-b pb-2 text-lg font-medium text-gray-900">
 						Отправить запрос или коммерческое предложение:
 					</h3>
 					<form
@@ -248,7 +248,7 @@
 									name="first_name"
 									id="first_name"
 									autocomplete="given-name"
-									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md border border-gray-300"
+									class="block w-full rounded-md border border-gray-300 border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 								/>
 							</div>
 						</div>
@@ -262,7 +262,7 @@
 									name="position"
 									id="position"
 									autocomplete="family-name"
-									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md border border-gray-300"
+									class="block w-full rounded-md border border-gray-300 border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 								/>
 							</div>
 						</div>
@@ -275,7 +275,7 @@
 									name="email"
 									type="email"
 									autocomplete="email"
-									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md border border-gray-300"
+									class="block w-full rounded-md border border-gray-300 border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 								/>
 							</div>
 						</div>
@@ -290,7 +290,7 @@
 									name="phone"
 									id="phone"
 									autocomplete="tel"
-									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md border border-gray-300"
+									class="block w-full rounded-md border border-gray-300 border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									aria-describedby="phone-optional"
 								/>
 							</div>
@@ -308,7 +308,7 @@
 									id="message"
 									name="message"
 									rows="4"
-									class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+									class="block w-full rounded-md border border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									aria-describedby="message-max"
 								/>
 							</div>
@@ -341,13 +341,13 @@
 								<button
 									on:click={sendOffer}
 									type="button"
-									class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-800 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 sm:w-auto"
+									class="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 sm:w-auto"
 								>
 									Отправить
 								</button>
 							{:else}
 								<p
-									class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-cyan-800 sm:w-auto"
+									class="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-800 px-6 py-3 text-base font-medium text-white shadow-sm sm:w-auto"
 								>
 									Отправлено
 								</p>

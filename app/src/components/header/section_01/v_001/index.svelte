@@ -8,8 +8,8 @@
 	};
 </script>
 
-<div class="relative bg-white max-w-7xl mx-auto">
-	<div class="flex justify-between items-center px-4 py-2 sm:px-6  md:space-x-10">
+<div class="relative mx-auto max-w-7xl bg-white">
+	<div class="flex items-center justify-between px-4 py-2 sm:px-6  md:space-x-10">
 		<div>
 			<a href="/" class="flex">
 				<span class="sr-only">Логотип</span>
@@ -20,10 +20,10 @@
 				/>
 			</a>
 		</div>
-		<div class="-mr-2 -my-2 md:hidden">
+		<div class="-my-2 -mr-2 md:hidden">
 			<button
 				type="button"
-				class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+				class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 				aria-expanded="false"
 			>
 				<span class="sr-only">Open menu</span>
@@ -41,7 +41,7 @@
 				</svg>
 			</button>
 		</div>
-		<div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
+		<div class="hidden md:flex md:flex-1 md:items-center md:justify-between">
 			<nav class=" flex space-x-10">
 				<a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Главная </a>
 
@@ -50,7 +50,7 @@
 					<button
 						on:click={changeVisibleCategoryMenu}
 						type="button"
-						class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900"
+						class="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900"
 						aria-expanded="false"
 					>
 						<span>Каталог</span>
@@ -60,7 +60,7 @@
                           Item active: "text-gray-600", Item inactive: "text-gray-400"
                         -->
 						<svg
-							class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500 animate-bounce"
+							class="ml-2 h-5 w-5 animate-bounce text-gray-400 group-hover:text-gray-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -85,15 +85,15 @@
                         To: "opacity-0 translate-y-1"
                     -->
 					{#if $categoryMenu}
-						<div class="absolute z-20 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-3xl">
-							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+						<div class="absolute z-20 -ml-4 mt-3 w-screen max-w-md transform lg:max-w-3xl">
+							<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
 									<a
 										href="/category/remontpomeshenii"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+										class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
 									>
 										<div
-											class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
+											class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
 										>
 											<!-- Heroicon name: outline/cursor-click -->
 											<svg
@@ -121,10 +121,10 @@
 									</a>
 									<a
 										href="/category/stroitelstvodomov"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+										class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
 									>
 										<div
-											class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
+											class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
 										>
 											<!-- Heroicon name: outline/cursor-click -->
 											<svg
@@ -152,10 +152,10 @@
 									</a>
 									<a
 										href="/category/prodazhamaterialov"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+										class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
 									>
 										<div
-											class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
+											class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
 										>
 											<!-- Heroicon name: outline/cursor-click -->
 											<svg
@@ -183,10 +183,10 @@
 									</a>
 									<a
 										href="/category/gruzoperevozki"
-										class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+										class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
 									>
 										<div
-											class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
+											class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-cyan-500 text-white sm:h-12 sm:w-12"
 										>
 											<!-- Heroicon name: outline/cursor-click -->
 											<svg
@@ -213,12 +213,12 @@
 										</div>
 									</a>
 								</div>
-								<div class="p-5 bg-gray-50 sm:p-8">
-									<a href="#" class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">
+								<div class="bg-gray-50 p-5 sm:p-8">
+									<a href="#" class="-m-3 flow-root rounded-md p-3 hover:bg-gray-100">
 										<div class="flex items-center">
 											<div class="text-base font-medium text-gray-900">Консультации</div>
 											<span
-												class="ml-3 inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium leading-5 bg-cyan-100 text-cyan-800"
+												class="ml-3 inline-flex items-center rounded-full bg-cyan-100 px-3 py-0.5 text-xs font-medium leading-5 text-cyan-800"
 											>
 												New
 											</span>
@@ -244,7 +244,7 @@
 						<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
 						<button
 							type="button"
-							class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+							class="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
 							aria-expanded="false"
 						>
 							<span>More</span>
@@ -254,7 +254,7 @@
                               Item active: "text-gray-600", Item inactive: "text-gray-400"
                             -->
 							<svg
-								class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
+								class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
 								fill="currentColor"
@@ -279,32 +279,32 @@
                             To: "opacity-0 translate-y-1"
                         -->
 						<div
-							class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0"
+							class="absolute left-1/2 z-10 mt-3 w-screen max-w-xs -translate-x-1/2 transform px-2 sm:px-0"
 						>
-							<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+							<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 								<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-									<a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+									<a href="#" class="-m-3 block rounded-md p-3 hover:bg-gray-50">
 										<p class="text-base font-medium text-gray-900">Help Center</p>
 										<p class="mt-1 text-sm text-gray-500">
 											Get all of your questions answered in our forums or contact support.
 										</p>
 									</a>
 
-									<a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+									<a href="#" class="-m-3 block rounded-md p-3 hover:bg-gray-50">
 										<p class="text-base font-medium text-gray-900">Guides</p>
 										<p class="mt-1 text-sm text-gray-500">
 											Learn how to maximize our platform to get the most out of it.
 										</p>
 									</a>
 
-									<a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+									<a href="#" class="-m-3 block rounded-md p-3 hover:bg-gray-50">
 										<p class="text-base font-medium text-gray-900">Events</p>
 										<p class="mt-1 text-sm text-gray-500">
 											See what meet-ups and other events we might be planning near you.
 										</p>
 									</a>
 
-									<a href="#" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+									<a href="#" class="-m-3 block rounded-md p-3 hover:bg-gray-50">
 										<p class="text-base font-medium text-gray-900">Security</p>
 										<p class="mt-1 text-sm text-gray-500">
 											Understand how we take your privacy seriously.
@@ -334,7 +334,7 @@
 
 				<a
 					href="tel:+74951475550"
-					class="text-2xl font-medium text-slate-500 hover:text-slate-600 font-semibold"
+					class="text-2xl font-medium font-semibold text-slate-500 hover:text-slate-600"
 				>
 					8 (495) 147-55-50
 				</a>
@@ -352,11 +352,11 @@
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-	<div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+	<div class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
 		<div
-			class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50"
+			class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5"
 		>
-			<div class="pt-5 pb-6 px-5">
+			<div class="px-5 pt-5 pb-6">
 				<div class="flex items-center justify-between">
 					<div>
 						<img
@@ -368,7 +368,7 @@
 					<div class="-mr-2">
 						<button
 							type="button"
-							class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+							class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 						>
 							<span class="sr-only">Close menu</span>
 							<!-- Heroicon name: outline/x -->
@@ -388,9 +388,9 @@
 				</div>
 				<div class="mt-6">
 					<nav class="grid gap-6">
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/chart-bar -->
 								<svg
@@ -412,9 +412,9 @@
 							<div class="ml-4 text-base font-medium text-gray-900">Analytics</div>
 						</a>
 
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/cursor-click -->
 								<svg
@@ -436,9 +436,9 @@
 							<div class="ml-4 text-base font-medium text-gray-900">Engagement</div>
 						</a>
 
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/shield-check -->
 								<svg
@@ -460,9 +460,9 @@
 							<div class="ml-4 text-base font-medium text-gray-900">Security</div>
 						</a>
 
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/view-grid -->
 								<svg
@@ -484,9 +484,9 @@
 							<div class="ml-4 text-base font-medium text-gray-900">Integrations</div>
 						</a>
 
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/refresh -->
 								<svg
@@ -508,9 +508,9 @@
 							<div class="ml-4 text-base font-medium text-gray-900">Automations</div>
 						</a>
 
-						<a href="#" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+						<a href="#" class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
 							<div
-								class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white"
+								class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white"
 							>
 								<!-- Heroicon name: outline/document-report -->
 								<svg
@@ -557,7 +557,7 @@
 				<div class="mt-6">
 					<a
 						href="#"
-						class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+						class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
 					>
 						Sign up
 					</a>

@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <footer class="bg-white">
 	<div
-		class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
+		class="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
 	>
 		<div class="flex justify-center space-x-6 md:order-2">
 			<a href="#" class="text-gray-400 hover:text-gray-500">
@@ -57,11 +57,11 @@
 				</svg>
 			</a>
 		</div>
-		<div class="mt-8 md:mt-0 md:order-1">
+		<div class="mt-8 md:order-1 md:mt-0">
 			<p class="text-center text-base text-gray-400">
 				&copy; 2022 Сервис предоставлен компанией <a
 					href="https://orbita-stroy.com/"
-					class="text-cyan-900 font-bold"
+					class="font-bold text-cyan-900"
 					target="_blank">"Орбита-строй"</a
 				>.
 			</p>
