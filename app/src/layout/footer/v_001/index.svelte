@@ -1,5 +1,5 @@
 <script>
-    import {FooterSectionV1} from '$broker'
+	import { FooterSectionV1 } from '$broker';
 </script>
 
-<FooterSectionV1/>
+<FooterSectionV1 />

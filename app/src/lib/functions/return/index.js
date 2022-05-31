@@ -1,5 +1,5 @@
-const currentValue = (value) => value
+const currentValue = (value) => value;
 
 export const useReturn = {
-  currentValue
-}
+	currentValue
+};
