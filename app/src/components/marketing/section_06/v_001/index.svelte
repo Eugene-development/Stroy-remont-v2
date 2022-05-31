@@ -1,6 +1,5 @@
 <script>
-	export let nameCategory;
-	export let descriptionCategory;
+	export let mainText;
 	export let company;
 </script>
 
@@ -12,10 +11,10 @@
 					Категория
 				</h2>
 				<p class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-					Продажа строительных материалов
+					{mainText.titleCategory}
 				</p>
 				<p class="text-xl text-gray-300">
-					Компании, продающие строительные и отделочные материалы оптом и в розницу.
+					{mainText.descriptionCategory}
 				</p>
 			</div>
 		</div>

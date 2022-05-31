@@ -2,8 +2,8 @@ const seoTitle = '';
 const seoDescription = '';
 
 const mainText = {
-	nameCategory: '',
-	descriptionCategory: ''
+	titleCategory: 'Продажа',
+	descriptionCategory: 'Реализация строительных и отделочных материалов оптом и в розницу'
 };
 
 const company = [

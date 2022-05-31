@@ -2,8 +2,8 @@ const seoTitle = '';
 const seoDescription = '';
 
 const mainText = {
-	nameCategory: '',
-	descriptionCategory: ''
+	titleCategory: 'Строительство',
+	descriptionCategory: 'Строительство малоэтажных зданий и сооружений различной архитектуры'
 };
 
 const company = [

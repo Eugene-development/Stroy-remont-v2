@@ -2,8 +2,8 @@ const seoTitle = '';
 const seoDescription = '';
 
 const mainText = {
-	nameCategory: '',
-	descriptionCategory: ''
+	titleCategory: 'Ремонт',
+	descriptionCategory: 'Ремонт квартир и иных помещений под нужды заказчика'
 };
 
 const company = [

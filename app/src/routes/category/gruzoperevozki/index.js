@@ -2,8 +2,8 @@ const seoTitle = '';
 const seoDescription = '';
 
 const mainText = {
-	nameCategory: '',
-	descriptionCategory: ''
+	titleCategory: 'Грузоперевозки',
+	descriptionCategory: 'Перевозки материалов специальным транспортом и услуги грузчиков'
 };
 
 const company = [
