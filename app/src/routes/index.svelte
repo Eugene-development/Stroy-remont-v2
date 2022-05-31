@@ -49,9 +49,7 @@
 				<p class="text-center text-sm font-semibold uppercase tracking-wide text-gray-500">
 					Нам доверяют производители
 				</p>
-				<div
-					class="mt-8 grid grid-cols-2 gap-8 opacity-70 grayscale md:grid-cols-6 lg:grid-cols-5 "
-				>
+				<div class="mt-8 grid grid-cols-2 gap-8 opacity-70 grayscale md:grid-cols-6 lg:grid-cols-5">
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
 						<img
 							class="h-12"
