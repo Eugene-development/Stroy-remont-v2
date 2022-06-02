@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/node/Dockerfile
-    container_name: "${COMPOSE_PROJECT_NAME}_PROJECT"
+    container_name: "REMSTROY_PROJECT"
     restart: always
     command:
       "npm run start"
@@ -13,7 +13,7 @@ services:
 
   nginx:
     image: nginx:1.13
-    container_name: "${COMPOSE_PROJECT_NAME}_NGINX"
+    container_name: "REMSTROY_NGINX"
     ports:
       - "4185:80"
     volumes:
