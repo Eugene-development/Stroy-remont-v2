@@ -169,7 +169,7 @@
 					</div>
 					<div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
 						<a
-							href="#"
+							href="https://orbita-stroy.com/"
 							class="flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
 						>
 							Перейти на сайт компании

@@ -7,6 +7,21 @@ const mainText = {
 };
 
 const company = [
+	// {
+	// 	city: '',
+	// 	name: '',
+	// 	address: '',
+	// 	phone1: '',
+	// 	phone2: '',
+	// 	email: '',
+	// 	products: [
+	// 		{
+	// 			name: ''
+	// 		},
+	// 	],
+	// 	site: ''
+	// },
+
 	{
 		city: 'Дзержинск',
 		name: 'Орбита-Строй',
@@ -38,7 +53,31 @@ const company = [
 			}
 		],
 		site: 'https://orbita-stroy.com'
-	}
+	},
+	{
+		city: 'Нижний Новгород',
+		name: 'СтройБаза',
+		address: 'ул. Тургенева, д. 19А/11',
+		phone1: '+7 (831) 216-09-04',
+		phone2: '+7 (831) 291-26-08',
+		email: 'stroybaza-nn@mail.ru',
+		products: [
+			{
+				name: 'Стройматериалы'
+			},
+			{
+				name: 'Отделочные материалы'
+			},
+			{
+				name: 'Инструмент и расходники'
+			},
+			{
+				name: 'Электрика и сантехника'
+			},
+		],
+		site: 'https://stroybaza-nn.ru/'
+	},
+
 ];
 
 const contentMarketingSectionV6 = {
