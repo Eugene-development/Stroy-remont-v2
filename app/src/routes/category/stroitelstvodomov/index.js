@@ -1,5 +1,5 @@
-const seoTitle = '';
-const seoDescription = '';
+const seoTitle = 'Строительство дач, бань и малоэтажных кострукций';
+const seoDescription = 'Компании, строящие дачи, бани и другие малоэтажные здания жилой и коммерческой направленности';
 
 const mainText = {
 	titleCategory: 'Строительство',
@@ -8,35 +8,47 @@ const mainText = {
 
 const company = [
 	{
-		city: 'Дзержинск',
-		name: 'Орбита-Строй',
-		address: 'п-т Ленина 121-в',
-		phone1: '8 (902) 303-36-54',
-		phone2: '8 (930) 688-88-62',
-		email: 'info@orbita-stroy.com',
+		city: 'Нижний Новгород',
+		name: 'СтройДом',
+		address: 'ул. Казанская набережная, д.5, 3 этаж',
+		phone1: '',
+		phone2: '',
+		email: 'mail@lesstroy52.ru',
 		products: [
 			{
-				name: 'Стройматериалы'
+				name: 'Строительство домов'
 			},
 			{
-				name: 'Изоляция'
+				name: 'Строительство котеджей'
 			},
-			{
-				name: 'Отделка'
-			},
-			{
-				name: 'Инструмент'
-			},
-			{
-				name: 'Сантехника'
-			},
-			{
-				name: 'Электротовары'
-			}
 		],
-		site: 'https://orbita-stroy.com'
-	}
-];
+		site: 'https://lesstroy52.ru/'
+	},
+	{
+		city: 'Нижний Новгород',
+		name: 'Усадьбы',
+		address: '',
+		phone1: '',
+		phone2: '',
+		email: '',
+		products: [
+			{
+				name: 'Каркасные дома'
+			},
+			{
+				name: 'Каменные дома'
+			},
+			{
+				name: 'Дачные дома'
+			},
+			{
+				name: 'Бани'
+			},
+		],
+		site: 'https://xn----8sbdl1a5bcp0fi.xn--p1ai/'
+	},
+
+	];
 
 const contentMarketingSectionV6 = {
 	mainText,

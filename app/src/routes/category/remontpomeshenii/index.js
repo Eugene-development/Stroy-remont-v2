@@ -30,6 +30,69 @@ const company = [
 		],
 		site: 'https://alphastroy.pro/'
 	},
+	{
+		city: 'Нижний Новгород',
+		name: 'Ремонт Строй',
+		address: 'ул. Гоголя, дом 47, офис 7',
+		phone1: '+7 (831) 423-46-73',
+		email: 'remont-stroynn@yandex.ru',
+		products: [
+			{
+				name: 'Натяжные потолки'
+			},
+			{
+				name: 'Капитальный ремонт'
+			},
+			{
+				name: 'Элетромонтажные работы'
+			},
+			{
+				name: 'Ремонт ванной комнаты'
+			},
+		],
+		site: 'http://remont-stroynn.ru/'
+	},
+	{
+		city: 'Нижний Новгород',
+		name: 'Регодизайн',
+		address: 'Родионова 165 к.13',
+		phone1: '8 (831) 423-87-07',
+		email: 'regodesign-nn@yandex.ru',
+		products: [
+			{
+				name: 'Дизайн'
+			},
+			{
+				name: 'Ремонт'
+			},
+			{
+				name: 'Мебель'
+			},
+			{
+				name: 'Фасады'
+			},
+		],
+		site: 'https://regodesign.ru/'
+	},
+	{
+		city: 'Дзержинск',
+		name: 'ГостРемонт',
+		address: 'бульвар Правды, д.1',
+		phone1: '+7 (8313) 300-261',
+		phone2: '8 (920) 022-50-85',
+		products: [
+			{
+				name: 'Косметический ремонт'
+			},
+			{
+				name: 'Капитальный ремонт'
+			},
+			{
+				name: 'Дизайнерский ремонт'
+			},
+		],
+		site: 'https://dzerzhinsk-gostremont.ru/'
+	},
 
 ];
 
