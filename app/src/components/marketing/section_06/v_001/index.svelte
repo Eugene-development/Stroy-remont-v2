@@ -135,7 +135,7 @@
 								</ul>
 								<div class="rounded-md shadow">
 									<a
-										href="https://orbita-stroy.com/"
+										href="{site}"
 										target="_blank"
 										class="flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-5 py-3 text-base font-medium text-white hover:bg-gray-900"
 										aria-describedby="tier-standard"

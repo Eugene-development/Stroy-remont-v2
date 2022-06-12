@@ -1,44 +1,36 @@
-const seoTitle = '';
-const seoDescription = '';
+const seoTitle = 'Каталог компаний, осуществляющих ремонт помещений';
+const seoDescription = 'Ознакомьтесь с компаниями, ремонтирующими квартиры, офисы и нежилые помещения.';
 
 const mainText = {
-	titleCategory: 'Ремонт',
+	titleCategory: 'Ремонт помещений',
 	descriptionCategory: 'Ремонт квартир и иных помещений под нужды заказчика'
 };
 
 const company = [
 	{
-		city: 'Дзержинск',
-		name: 'Орбита-Строй',
-		address: 'п-т Ленина 121-в',
-		phone1: '8 (902) 303-36-54',
-		phone2: '8 (930) 688-88-62',
-		email: 'info@orbita-stroy.com',
+		city: 'Нижний Новгород',
+		name: 'АльфаСтройПро',
+		address: 'ул. Проспект Ленина 54а, оф. 431',
+		phone1: '+7 831 423-71-14',
+		phone2: '+7 967 513-58-59',
+		email: 'alphastroypro@yandex.ru',
 		products: [
 			{
-				name: 'Стройматериалы'
+				name: 'Черновой ремонт'
 			},
 			{
-				name: 'Изоляция'
+				name: 'Косметический ремонт'
 			},
 			{
-				name: 'Отделка'
+				name: 'Капитальный ремонт'
 			},
 			{
-				name: 'Инструмент'
+				name: 'Дизайнерский ремонт'
 			},
-			{
-				name: 'Сантехника'
-			},
-			{
-				name: 'Электротовары'
-			},
-			{
-				name: 'Окна'
-			}
 		],
-		site: 'https://orbita-stroy.com'
-	}
+		site: 'https://alphastroy.pro/'
+	},
+
 ];
 
 const contentMarketingSectionV6 = {
