@@ -27,10 +27,9 @@ const company = [
 	{
 		city: 'Нижний Новгород',
 		name: 'Усадьбы',
-		address: '',
-		phone1: '',
-		phone2: '',
-		email: '',
+		address: 'ул. Литвинова 74 Б, 6 этаж, офис 605',
+		phone1: '+7 (831) 266-48-04',
+		email: 'sk-usadby@mail.ru',
 		products: [
 			{
 				name: 'Каркасные дома'
