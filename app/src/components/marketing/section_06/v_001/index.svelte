@@ -29,10 +29,10 @@
 					{#each company as { city, name, address, phone1, phone2, email, products, site }}
 						<div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
 							<div class="bg-white px-6 py-10 sm:p-10 sm:pb-6">
-								<div>
-									<span
-										class="inline-flex rounded-full bg-cyan-50 px-4 py-1 text-sm font-semibold uppercase tracking-wide text-cyan-600"
-										>{city}</span
+								<div class="flex justify-end">
+									<div
+										class="inline-flex rounded-full bg-cyan-50 px-4 py-1 text-sm font-semibold uppercase tracking-wide text-cyan-600 "
+										>{city}</div
 									>
 								</div>
 								<div class="my-4 flex items-baseline text-3xl font-extrabold">{name}</div>
