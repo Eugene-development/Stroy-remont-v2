@@ -94,6 +94,47 @@ const company = [
 		site: 'https://dzerzhinsk-gostremont.ru/'
 	},
 
+	{
+		city: 'Нижний Новгород',
+		name: 'Счастливые метры',
+		address: 'ул. Веденяпина 17, п.4',
+		phone1: '+7 (831) 212-83-09',
+		products: [
+			{
+				name: 'Квартиры'
+			},
+			{
+				name: 'Комнаты'
+			},
+			{
+				name: 'Дома и дачи'
+			},
+		],
+		site: 'https://happymeters.ru'
+	},
+
+	{
+		city: 'Нижний Новгород',
+		name: 'Добрый мастер',
+		address: 'пр. Бусыгина, д. 19А',
+		phone1: '8 (930) 665-46-99',
+		products: [
+			{
+				name: 'Косметический ремонт'
+			},
+			{
+				name: 'Капитальный ремонт'
+			},
+			{
+				name: 'Евроремонт'
+			},
+			{
+				name: 'Дизайнерский ремонт'
+			},
+		],
+		site: 'https://happymeters.ru'
+	},
+
 ];
 
 const contentMarketingSectionV6 = {

@@ -21,8 +21,8 @@
 	</div>
 	<div class="mt-8 bg-gray-50 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
 		<div class="relative">
-			<div class="absolute inset-0 h-3/4 bg-gray-900" />
-			<div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="absolute inset-0 bg-gray-900" />
+			<div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-6">
 				<div
 					class="mx-auto max-w-md space-y-4 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-5 lg:space-y-0"
 				>
@@ -150,9 +150,9 @@
 			</div>
 		</div>
 
-		<div class="relative mx-auto mt-4 max-w-7xl px-4 sm:px-6 lg:mt-5 lg:px-8">
+		<div class="relative mx-auto mt-4 max-w-7xl px-4 sm:px-6 lg:mt-5 lg:px-8 py-12">
 			<div class="mx-auto max-w-md lg:max-w-5xl">
-				<div class="rounded-lg bg-gray-100 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+				<div class="rounded-lg bg-gray-200 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 					<div class="flex-1">
 						<div>
 							<h3
@@ -161,7 +161,7 @@
 								Скидки и акции
 							</h3>
 						</div>
-						<div class="mt-4 text-lg text-gray-600">
+						<div class="mt-4 text-lg text-gray-700">
 							При заказе через корзину сайта <span class="font-semibold text-gray-900"
 								>скидка 5%</span
 							> от компании "Орбита-Строй".
