@@ -80,6 +80,7 @@ const company = [
 		address: 'бульвар Правды, д.1',
 		phone1: '+7 (8313) 300-261',
 		phone2: '8 (920) 022-50-85',
+		email: '',
 		products: [
 			{
 				name: 'Косметический ремонт'
@@ -99,6 +100,7 @@ const company = [
 		name: 'Счастливые метры',
 		address: 'ул. Веденяпина 17, п.4',
 		phone1: '+7 (831) 212-83-09',
+		email: 'info@happymeters.ru',
 		products: [
 			{
 				name: 'Квартиры'
@@ -118,6 +120,7 @@ const company = [
 		name: 'Добрый мастер',
 		address: 'пр. Бусыгина, д. 19А',
 		phone1: '8 (930) 665-46-99',
+		email: 'dobro@dob-master.ru',
 		products: [
 			{
 				name: 'Косметический ремонт'
@@ -132,7 +135,7 @@ const company = [
 				name: 'Дизайнерский ремонт'
 			},
 		],
-		site: 'https://happymeters.ru'
+		site: 'https://xn----8sbblivwmtfjm5i.xn--p1ai/'
 	},
 
 ];
