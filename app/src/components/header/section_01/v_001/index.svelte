@@ -50,7 +50,7 @@
         </div>
         <div class="hidden md:flex md:flex-1 md:items-center md:justify-between">
             <nav class=" flex space-x-10">
-                <a class="text-base font-medium text-gray-500 hover:text-gray-900" href="/"> Главная </a>
+                <a class="text-base font-medium text-gray-800 hover:text-gray-900" href="/"> Главная </a>
 
                 <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
@@ -58,7 +58,7 @@
                             on:outclick={closeVisibleCategoryMenu} use:clickOutside
                             on:click={changeVisibleCategoryMenu}
                             aria-expanded="false"
-                            class="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900"
+                            class="group inline-flex items-center rounded-md bg-white text-base font-medium text-gray-800 hover:text-gray-900"
                             type="button"
                     >
                         <span>Каталог</span>
@@ -243,9 +243,9 @@
                     {/if}
                 </div>
 
-                <a class="text-base font-medium text-gray-500 hover:text-gray-900" href="#"> Размещение </a>
-                <a class="text-base font-medium text-gray-500 hover:text-gray-900" href="#"> Новости </a>
-                <a class="text-base font-medium text-gray-500 hover:text-gray-900" href="/contacts">
+                <a class="text-base font-medium text-gray-800 hover:text-gray-900" href="#"> Размещение </a>
+                <a class="text-base font-medium text-gray-800 hover:text-gray-900" href="#"> Новости </a>
+                <a class="text-base font-medium text-gray-800 hover:text-gray-900" href="/contacts">
                     Контакты
                 </a>
 
@@ -328,7 +328,7 @@
             </nav>
             <div class="flex items-center md:ml-12 hidden lg:flex">
                 <svg
-                        class="mr-4 h-7 w-7 text-slate-500 "
+                        class="mr-4 h-7 w-7 text-gray-700 "
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -343,7 +343,7 @@
                 </svg>
 
                 <a
-                        class="text-2xl font-medium font-semibold text-slate-500 hover:text-slate-600 "
+                        class="text-2xl font-medium font-semibold text-gray-700 hover:text-gray-600 "
                         href="tel:+74951475550"
                 >
                     8 (495) 147-55-50
